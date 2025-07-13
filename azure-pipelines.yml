@@ -32,4 +32,4 @@ steps:
       azcopy --version
     displayName: Install AzCopy
   - script: |
-        azcopy copy 'TaxiService/taxi_schema.json' 'https://pramit46.dfs.core.windows.net/schema/schema/schema.json?sv=2024-11-04&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-07-12T20:15:25Z&st=2025-07-12T12:15:25Z&spr=https&sig=0IZAmfPXmkpuBMraJUXWrcjUfO1myrZc3xqkcowBaUE%3D' --recursive=true
+        azcopy copy 'TaxiService/taxi_schema.json' 'https://pramit46.dfs.core.windows.net/schema/schema/taxi_schema.json?sv=2024-11-04&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-07-12T20:15:25Z&st=2025-07-12T12:15:25Z&spr=https&sig=0IZAmfPXmkpuBMraJUXWrcjUfO1myrZc3xqkcowBaUE%3D' --recursive=true
